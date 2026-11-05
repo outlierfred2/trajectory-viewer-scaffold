@@ -2,6 +2,8 @@
 
 A dependency-free, local-file trajectory reader. Built independently as a reusable starting point. WIP ~ send feedback to [Fred Davis](https://scale.enterprise.slack.com/team/U0BU44F534M)
 
+If needed, sanitized your trajectory JSON first with https://outlierfred2.github.io/JSONsanitizer/
+
 Run `npm start`, then open http://localhost:8000. Requires Python 3. Run `npm test` with Node.js 18+.
 
 Open one or more JSON files or load the built-in example. Search includes every original event field. Expand events to inspect messages and the complete original record. Nothing is uploaded; refreshing clears loaded files and mappings.
