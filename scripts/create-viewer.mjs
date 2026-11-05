@@ -7,7 +7,7 @@ if (!target || target === source || target.startsWith(source + '/')) throw new E
 try { if ((await readdir(target)).length) throw new Error('Destination must be empty.'); }
 catch (error) { if (error.code !== 'ENOENT') throw error; }
 await mkdir(target, { recursive: true });
-for (const path of ['index.html','styles.css','src','tests','examples','scripts','package.json','README.md','.gitignore','.github']) {
+for (const path of ['index.html','styles.css','src','tests','scripts','package.json','README.md','.gitignore','.github']) {
  await cp(resolve(source,path), resolve(target,path), { recursive: true });
 }
 console.log(`Created viewer at ${target}`);
