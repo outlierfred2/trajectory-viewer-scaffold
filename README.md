@@ -1,6 +1,6 @@
 # Trajectory viewer scaffold
 
-A dependency-free, local-file trajectory reader. Built independently as a reusable starting point.WIP, send feedback to [Fred Davis](https://scale.enterprise.slack.com/team/U0BU44F534M)
+A dependency-free, local-file trajectory reader. Built independently as a reusable starting point. WIP ~ send feedback to [Fred Davis](https://scale.enterprise.slack.com/team/U0BU44F534M)
 
 Run `npm start`, then open http://localhost:8000. Requires Python 3. Run `npm test` with Node.js 18+.
 
